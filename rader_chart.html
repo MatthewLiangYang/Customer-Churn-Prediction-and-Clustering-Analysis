@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+                <script type="text/javascript" src="https://assets.pyecharts.org/assets/v5/echarts.min.js"></script>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/v5/themes/macarons.js"></script>
+
+    
+</head>
+<body >
+    <div id="b5e19a50a32f4b73bc991280e560f2f9" class="chart-container" style="width:800px; height:800px; "></div>
+    <script>
+        var chart_b5e19a50a32f4b73bc991280e560f2f9 = echarts.init(
+            document.getElementById('b5e19a50a32f4b73bc991280e560f2f9'), 'macarons', {renderer: 'canvas'});
+        var option_b5e19a50a32f4b73bc991280e560f2f9 = {
+    "backgroundColor": "rgba(30,30,40,0.9)",
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "aria": {
+        "enabled": false
+    },
+    "series": [
+        {
+            "type": "radar",
+            "name": "Class 1",
+            "data": [
+                [
+                    -0.25,
+                    -0.2,
+                    -0.35,
+                    -0.27,
+                    -0.45
+                ]
+            ],
+            "label": {
+                "show": false,
+                "margin": 8,
+                "valueAnimation": false
+            },
+            "selectedMode": false,
+            "zlevel": 0,
+            "z": 2,
+            "itemStyle": {
+                "normal": {}
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 1.5,
+                "opacity": 0.85,
+                "curveness": 0,
+                "type": "solid",
+                "color": "#4682B4"
+            },
+            "areaStyle": {
+                "opacity": 0.2,
+                "color": "#4682B4"
+            }
+        },
+        {
+            "type": "radar",
+            "name": "Class 2",
+            "data": [
+                [
+                    -0.23,
+                    -0.03,
+                    0.65,
+                    -0.24,
+                    1.09
+                ]
+            ],
+            "label": {
+                "show": false,
+                "margin": 8,
+                "valueAnimation": false
+            },
+            "selectedMode": false,
+            "zlevel": 0,
+            "z": 2,
+            "itemStyle": {
+                "normal": {}
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 1.5,
+                "opacity": 0.85,
+                "curveness": 0,
+                "type": "solid",
+                "color": "#8A2BE2"
+            },
+            "areaStyle": {
+                "opacity": 0.2,
+                "color": "#8A2BE2"
+            }
+        },
+        {
+            "type": "radar",
+            "name": "Class 3",
+            "data": [
+                [
+                    3.71,
+                    0.24,
+                    0.52,
+                    -0.16,
+                    -0.28
+                ]
+            ],
+            "label": {
+                "show": false,
+                "margin": 8,
+                "valueAnimation": false
+            },
+            "selectedMode": false,
+            "zlevel": 0,
+            "z": 2,
+            "itemStyle": {
+                "normal": {}
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 1.5,
+                "opacity": 0.85,
+                "curveness": 0,
+                "type": "solid",
+                "color": "#FF7F50"
+            },
+            "areaStyle": {
+                "opacity": 0.2,
+                "color": "#FF7F50"
+            }
+        },
+        {
+            "type": "radar",
+            "name": "Class 4",
+            "data": [
+                [
+                    -0.21,
+                    -0.55,
+                    -0.05,
+                    3.04,
+                    0.15
+                ]
+            ],
+            "label": {
+                "show": false,
+                "margin": 8,
+                "valueAnimation": false
+            },
+            "selectedMode": false,
+            "zlevel": 0,
+            "z": 2,
+            "itemStyle": {
+                "normal": {}
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 1.5,
+                "opacity": 0.85,
+                "curveness": 0,
+                "type": "solid",
+                "color": "#32CD32"
+            },
+            "areaStyle": {
+                "opacity": 0.2,
+                "color": "#32CD32"
+            }
+        },
+        {
+            "type": "radar",
+            "name": "Class 5",
+            "data": [
+                [
+                    -0.16,
+                    2.59,
+                    0.23,
+                    -0.13,
+                    -0.11
+                ]
+            ],
+            "label": {
+                "show": false,
+                "margin": 8,
+                "valueAnimation": false
+            },
+            "selectedMode": false,
+            "zlevel": 0,
+            "z": 2,
+            "itemStyle": {
+                "normal": {}
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 1.5,
+                "opacity": 0.85,
+                "curveness": 0,
+                "type": "solid",
+                "color": "#FFD700"
+            },
+            "areaStyle": {
+                "opacity": 0.2,
+                "color": "#FFD700"
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "Class 1",
+                "Class 2",
+                "Class 3",
+                "Class 4",
+                "Class 5"
+            ],
+            "selected": {},
+            "type": "scroll",
+            "show": true,
+            "right": "10%",
+            "top": "10%",
+            "orient": "vertical",
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 14,
+            "itemHeight": 14,
+            "textStyle": {
+                "color": "white",
+                "fontFamily": "Microsoft YaHei",
+                "fontSize": 12
+            },
+            "icon": "circle",
+            "backgroundColor": "transparent",
+            "borderColor": "#ccc",
+            "borderRadius": 0,
+            "pageButtonItemGap": 5,
+            "pageButtonPosition": "end",
+            "pageFormatter": "{current}/{total}",
+            "pageIconColor": "#2f4554",
+            "pageIconInactiveColor": "#aaa",
+            "pageIconSize": 15,
+            "animationDurationUpdate": 800,
+            "selector": false,
+            "selectorPosition": "auto",
+            "selectorItemGap": 7,
+            "selectorButtonGap": 10
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "enterable": false,
+        "confine": false,
+        "appendToBody": false,
+        "transitionDuration": 0.4,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5,
+        "order": "seriesAsc"
+    },
+    "radar": [
+        {
+            "indicator": [
+                {
+                    "name": "C",
+                    "max": 3.812302618728704,
+                    "min": -0.6457870410594396
+                },
+                {
+                    "name": "M",
+                    "max": 3.812302618728704,
+                    "min": -0.6457870410594396
+                },
+                {
+                    "name": "A",
+                    "max": 3.812302618728704,
+                    "min": -0.6457870410594396
+                },
+                {
+                    "name": "S",
+                    "max": 3.812302618728704,
+                    "min": -0.6457870410594396
+                },
+                {
+                    "name": "L",
+                    "max": 3.812302618728704,
+                    "min": -0.6457870410594396
+                }
+            ],
+            "shape": "circle",
+            "startAngle": 90,
+            "name": {
+                "textStyle": {
+                    "color": "#FFFFFF",
+                    "fontSize": 14
+                }
+            },
+            "splitLine": {
+                "show": true,
+                "lineStyle": {
+                    "color": [
+                        "rgba(255, 255, 255, 0.5)",
+                        "rgba(255, 255, 255, 0.4)",
+                        "rgba(255, 255, 255, 0.3)",
+                        "rgba(255, 255, 255, 0.2)",
+                        "rgba(255, 255, 255, 0.15)",
+                        "rgba(255, 255, 255, 0.1)"
+                    ]
+                }
+            },
+            "splitArea": {
+                "show": true,
+                "areaStyle": {
+                    "opacity": 0
+                }
+            },
+            "axisLine": {
+                "show": true,
+                "onZero": true,
+                "onZeroAxisIndex": 0
+            }
+        }
+    ],
+    "title": [
+        {
+            "show": true,
+            "text": "Radar Chart of Churned Customer Clusters",
+            "target": "blank",
+            "subtext": "Based on K-Means Analysis",
+            "subtarget": "blank",
+            "left": "center",
+            "top": "2%",
+            "padding": 5,
+            "itemGap": 10,
+            "textAlign": "auto",
+            "textVerticalAlign": "auto",
+            "triggerEvent": false,
+            "textStyle": {
+                "color": "white",
+                "fontWeight": "bold",
+                "fontFamily": "Microsoft YaHei",
+                "fontSize": 20
+            },
+            "subtextStyle": {
+                "color": "#CCCCCC",
+                "fontFamily": "Microsoft YaHei",
+                "fontSize": 14
+            }
+        }
+    ]
+};
+        chart_b5e19a50a32f4b73bc991280e560f2f9.setOption(option_b5e19a50a32f4b73bc991280e560f2f9);
+    </script>
+</body>
+</html>
